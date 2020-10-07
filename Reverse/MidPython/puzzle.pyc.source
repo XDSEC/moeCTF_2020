@@ -1,0 +1,789 @@
+  2           0 LOAD_CONST               0 ('')
+              2 LOAD_CONST               0 ('')
+              4 LOAD_CONST               0 ('')
+              6 LOAD_CONST               0 ('')
+              8 LOAD_CONST               0 ('')
+             10 BUILD_LIST               5
+             12 STORE_NAME               0 (T_letter)
+
+  7          14 LOAD_CONST               1 (<code object Create_Matrix at 0x7fdddf9dff50, file "./source.py", line 7>)
+             16 LOAD_CONST               2 ('Create_Matrix')
+             18 MAKE_FUNCTION            0
+             20 STORE_NAME               1 (Create_Matrix)
+
+ 19          22 LOAD_CONST               3 (<code object Remove_Duplicates at 0x7fdddf9e4030, file "./source.py", line 19>)
+             24 LOAD_CONST               4 ('Remove_Duplicates')
+             26 MAKE_FUNCTION            0
+             28 STORE_NAME               2 (Remove_Duplicates)
+
+ 34          30 LOAD_CONST               5 (<code object Get_MatrixIndex at 0x7fdddf9e40e0, file "./source.py", line 34>)
+             32 LOAD_CONST               6 ('Get_MatrixIndex')
+             34 MAKE_FUNCTION            0
+             36 STORE_NAME               3 (Get_MatrixIndex)
+
+ 43          38 LOAD_CONST               7 (<code object Encrypt at 0x7fdddf9e4190, file "./source.py", line 43>)
+             40 LOAD_CONST               8 ('Encrypt')
+             42 MAKE_FUNCTION            0
+             44 STORE_NAME               4 (Encrypt)
+
+ 86          46 LOAD_CONST               9 (<code object Decrypt at 0x7fdddf9e4240, file "./source.py", line 86>)
+             48 LOAD_CONST              10 ('Decrypt')
+             50 MAKE_FUNCTION            0
+             52 STORE_NAME               5 (Decrypt)
+
+127          54 LOAD_NAME                6 (__name__)
+             56 LOAD_CONST              11 ('__main__')
+             58 COMPARE_OP               2 (==)
+             60 POP_JUMP_IF_FALSE      212
+
+128          62 LOAD_CONST              12 ('YWCNOPJAFGHDTULMQXZEBRVKS')
+             64 STORE_NAME               7 (key)
+
+129          66 LOAD_CONST              13 ('WYTFSQOYGYOQKJLHUE')
+             68 STORE_NAME               8 (flag_enc)
+
+131          70 LOAD_NAME                1 (Create_Matrix)
+             72 LOAD_NAME                7 (key)
+             74 CALL_FUNCTION            1
+             76 POP_TOP
+
+133          78 LOAD_NAME                9 (print)
+             80 LOAD_CONST              14 ('Please Input flag: ')
+             82 CALL_FUNCTION            1
+             84 POP_TOP
+
+134          86 LOAD_NAME               10 (input)
+             88 CALL_FUNCTION            0
+             90 STORE_NAME              11 (plaintext)
+
+135          92 LOAD_NAME               11 (plaintext)
+             94 LOAD_CONST              15 (0)
+             96 LOAD_CONST              16 (7)
+             98 BUILD_SLICE              2
+            100 BINARY_SUBSCR
+            102 LOAD_CONST              17 ('moectf{')
+            104 COMPARE_OP               3 (!=)
+            106 POP_JUMP_IF_TRUE       120
+            108 LOAD_NAME               11 (plaintext)
+            110 LOAD_CONST              18 (-1)
+            112 BINARY_SUBSCR
+            114 LOAD_CONST              19 ('}')
+            116 COMPARE_OP               3 (!=)
+            118 POP_JUMP_IF_FALSE      140
+
+136     >>  120 LOAD_NAME                9 (print)
+            122 LOAD_CONST              20 ('Ruaaaaa~Wrong!')
+            124 CALL_FUNCTION            1
+            126 POP_TOP
+
+137         128 LOAD_NAME               10 (input)
+            130 CALL_FUNCTION            0
+            132 POP_TOP
+
+138         134 LOAD_NAME               12 (exit)
+            136 CALL_FUNCTION            0
+            138 POP_TOP
+
+139     >>  140 LOAD_NAME               11 (plaintext)
+            142 LOAD_CONST              16 (7)
+            144 LOAD_CONST              18 (-1)
+            146 BUILD_SLICE              2
+            148 BINARY_SUBSCR
+            150 STORE_NAME              11 (plaintext)
+
+141         152 LOAD_NAME                4 (Encrypt)
+            154 LOAD_NAME               11 (plaintext)
+            156 LOAD_NAME                0 (T_letter)
+            158 CALL_FUNCTION            2
+            160 STORE_NAME              13 (flag)
+
+143         162 LOAD_NAME               13 (flag)
+            164 LOAD_NAME                8 (flag_enc)
+            166 COMPARE_OP               3 (!=)
+            168 POP_JUMP_IF_FALSE      192
+
+144         170 LOAD_NAME                9 (print)
+            172 LOAD_CONST              20 ('Ruaaaaa~Wrong!')
+            174 CALL_FUNCTION            1
+            176 POP_TOP
+
+145         178 LOAD_NAME               10 (input)
+            180 CALL_FUNCTION            0
+            182 POP_TOP
+
+146         184 LOAD_NAME               12 (exit)
+            186 CALL_FUNCTION            0
+            188 POP_TOP
+            190 JUMP_FORWARD            20 (to 212)
+
+148     >>  192 LOAD_NAME                9 (print)
+            194 LOAD_CONST              21 ('Congratulations!')
+            196 CALL_FUNCTION            1
+            198 POP_TOP
+
+149         200 LOAD_NAME               10 (input)
+            202 CALL_FUNCTION            0
+            204 POP_TOP
+
+150         206 LOAD_NAME               12 (exit)
+            208 CALL_FUNCTION            0
+            210 POP_TOP
+        >>  212 LOAD_CONST              22 (None)
+            214 RETURN_VALUE
+
+Disassembly of <code object Create_Matrix at 0x7fdddf9dff50, file "./source.py", line 7>:
+  8           0 LOAD_GLOBAL              0 (Remove_Duplicates)
+              2 LOAD_FAST                0 (key)
+              4 CALL_FUNCTION            1
+              6 STORE_FAST               0 (key)
+
+  9           8 LOAD_FAST                0 (key)
+             10 LOAD_METHOD              1 (replace)
+             12 LOAD_CONST               1 (' ')
+             14 LOAD_CONST               2 ('')
+             16 CALL_METHOD              2
+             18 STORE_FAST               0 (key)
+
+ 10          20 LOAD_CONST               3 (0)
+             22 STORE_FAST               1 (j)
+
+ 11          24 LOAD_GLOBAL              2 (range)
+             26 LOAD_GLOBAL              3 (len)
+             28 LOAD_FAST                0 (key)
+             30 CALL_FUNCTION            1
+             32 CALL_FUNCTION            1
+             34 GET_ITER
+        >>   36 FOR_ITER                48 (to 86)
+             38 STORE_FAST               2 (i)
+
+ 12          40 LOAD_GLOBAL              4 (T_letter)
+             42 LOAD_FAST                1 (j)
+             44 DUP_TOP_TWO
+             46 BINARY_SUBSCR
+             48 LOAD_FAST                0 (key)
+             50 LOAD_FAST                2 (i)
+             52 BINARY_SUBSCR
+             54 INPLACE_ADD
+             56 ROT_THREE
+             58 STORE_SUBSCR
+
+ 13          60 LOAD_CONST               3 (0)
+             62 LOAD_FAST                2 (i)
+             64 LOAD_CONST               4 (1)
+             66 BINARY_ADD
+             68 LOAD_CONST               5 (5)
+             70 BINARY_MODULO
+             72 COMPARE_OP               2 (==)
+             74 POP_JUMP_IF_FALSE       36
+
+ 14          76 LOAD_FAST                1 (j)
+             78 LOAD_CONST               4 (1)
+             80 INPLACE_ADD
+             82 STORE_FAST               1 (j)
+             84 JUMP_ABSOLUTE           36
+        >>   86 LOAD_CONST               0 (None)
+             88 RETURN_VALUE
+
+Disassembly of <code object Remove_Duplicates at 0x7fdddf9e4030, file "./source.py", line 19>:
+ 20           0 LOAD_FAST                0 (key)
+              2 LOAD_METHOD              0 (upper)
+              4 CALL_METHOD              0
+              6 STORE_FAST               0 (key)
+
+ 21           8 LOAD_CONST               1 ('')
+             10 STORE_FAST               1 (_key)
+
+ 22          12 LOAD_FAST                0 (key)
+             14 GET_ITER
+        >>   16 FOR_ITER                36 (to 54)
+             18 STORE_FAST               2 (ch)
+
+ 23          20 LOAD_FAST                2 (ch)
+             22 LOAD_CONST               2 ('I')
+             24 COMPARE_OP               2 (==)
+             26 POP_JUMP_IF_FALSE       32
+
+ 24          28 LOAD_CONST               3 ('J')
+             30 STORE_FAST               2 (ch)
+
+ 25     >>   32 LOAD_FAST                2 (ch)
+             34 LOAD_FAST                1 (_key)
+             36 COMPARE_OP               6 (in)
+             38 POP_JUMP_IF_FALSE       44
+
+ 26          40 JUMP_ABSOLUTE           16
+             42 JUMP_ABSOLUTE           16
+
+ 28     >>   44 LOAD_FAST                1 (_key)
+             46 LOAD_FAST                2 (ch)
+             48 INPLACE_ADD
+             50 STORE_FAST               1 (_key)
+             52 JUMP_ABSOLUTE           16
+
+ 29     >>   54 LOAD_FAST                1 (_key)
+             56 RETURN_VALUE
+
+Disassembly of <code object Get_MatrixIndex at 0x7fdddf9e40e0, file "./source.py", line 34>:
+ 35           0 LOAD_GLOBAL              0 (range)
+              2 LOAD_GLOBAL              1 (len)
+              4 LOAD_GLOBAL              2 (T_letter)
+              6 CALL_FUNCTION            1
+              8 CALL_FUNCTION            1
+             10 GET_ITER
+        >>   12 FOR_ITER                54 (to 68)
+             14 STORE_FAST               1 (i)
+
+ 36          16 LOAD_GLOBAL              0 (range)
+             18 LOAD_GLOBAL              1 (len)
+             20 LOAD_GLOBAL              2 (T_letter)
+             22 CALL_FUNCTION            1
+             24 CALL_FUNCTION            1
+             26 GET_ITER
+        >>   28 FOR_ITER                36 (to 66)
+             30 STORE_FAST               2 (j)
+
+ 37          32 LOAD_FAST                0 (ch)
+             34 LOAD_GLOBAL              2 (T_letter)
+             36 LOAD_FAST                1 (i)
+             38 BINARY_SUBSCR
+             40 LOAD_FAST                2 (j)
+             42 BINARY_SUBSCR
+             44 COMPARE_OP               2 (==)
+             46 POP_JUMP_IF_FALSE       28
+
+ 38          48 LOAD_FAST                1 (i)
+             50 LOAD_FAST                2 (j)
+             52 BUILD_TUPLE              2
+             54 ROT_TWO
+             56 POP_TOP
+             58 ROT_TWO
+             60 POP_TOP
+             62 RETURN_VALUE
+             64 JUMP_ABSOLUTE           28
+        >>   66 JUMP_ABSOLUTE           12
+        >>   68 LOAD_CONST               0 (None)
+             70 RETURN_VALUE
+
+Disassembly of <code object Encrypt at 0x7fdddf9e4190, file "./source.py", line 43>:
+ 44           0 LOAD_CONST               1 ('')
+              2 STORE_FAST               2 (ciphertext)
+
+ 46           4 LOAD_GLOBAL              0 (len)
+              6 LOAD_FAST                0 (plaintext)
+              8 CALL_FUNCTION            1
+             10 LOAD_CONST               2 (2)
+             12 BINARY_MODULO
+             14 LOAD_CONST               3 (0)
+             16 COMPARE_OP               3 (!=)
+             18 POP_JUMP_IF_FALSE       28
+
+ 47          20 LOAD_FAST                0 (plaintext)
+             22 LOAD_CONST               4 ('Z')
+             24 INPLACE_ADD
+             26 STORE_FAST               0 (plaintext)
+
+ 49     >>   28 LOAD_CONST               3 (0)
+             30 STORE_FAST               3 (i)
+
+ 50     >>   32 LOAD_FAST                3 (i)
+             34 LOAD_GLOBAL              0 (len)
+             36 LOAD_FAST                0 (plaintext)
+             38 CALL_FUNCTION            1
+             40 COMPARE_OP               0 (<)
+             42 EXTENDED_ARG             1
+             44 POP_JUMP_IF_FALSE      440
+
+ 51          46 LOAD_CONST               5 (True)
+             48 LOAD_FAST                0 (plaintext)
+             50 LOAD_FAST                3 (i)
+             52 BINARY_SUBSCR
+             54 LOAD_METHOD              1 (isalpha)
+             56 CALL_METHOD              0
+             58 COMPARE_OP               2 (==)
+             60 EXTENDED_ARG             1
+             62 POP_JUMP_IF_FALSE      418
+
+ 52          64 LOAD_FAST                3 (i)
+             66 LOAD_CONST               6 (1)
+             68 BINARY_ADD
+             70 STORE_FAST               4 (j)
+
+ 53     >>   72 LOAD_FAST                4 (j)
+             74 LOAD_GLOBAL              0 (len)
+             76 LOAD_FAST                0 (plaintext)
+             78 CALL_FUNCTION            1
+             80 COMPARE_OP               0 (<)
+             82 EXTENDED_ARG             1
+             84 POP_JUMP_IF_FALSE      406
+
+ 54          86 LOAD_CONST               5 (True)
+             88 LOAD_FAST                0 (plaintext)
+             90 LOAD_FAST                4 (j)
+             92 BINARY_SUBSCR
+             94 LOAD_METHOD              1 (isalpha)
+             96 CALL_METHOD              0
+             98 COMPARE_OP               2 (==)
+            100 EXTENDED_ARG             1
+            102 POP_JUMP_IF_FALSE      396
+
+ 55         104 LOAD_CONST               7 ('I')
+            106 LOAD_FAST                0 (plaintext)
+            108 LOAD_FAST                3 (i)
+            110 BINARY_SUBSCR
+            112 LOAD_METHOD              2 (upper)
+            114 CALL_METHOD              0
+            116 COMPARE_OP               2 (==)
+            118 POP_JUMP_IF_FALSE      130
+
+ 56         120 LOAD_GLOBAL              3 (Get_MatrixIndex)
+            122 LOAD_CONST               8 ('J')
+            124 CALL_FUNCTION            1
+            126 STORE_FAST               5 (x)
+            128 JUMP_FORWARD            16 (to 146)
+
+ 58     >>  130 LOAD_GLOBAL              3 (Get_MatrixIndex)
+
+ 59         132 LOAD_FAST                0 (plaintext)
+            134 LOAD_FAST                3 (i)
+            136 BINARY_SUBSCR
+            138 LOAD_METHOD              2 (upper)
+            140 CALL_METHOD              0
+
+ 58         142 CALL_FUNCTION            1
+            144 STORE_FAST               5 (x)
+
+ 60     >>  146 LOAD_CONST               7 ('I')
+            148 LOAD_FAST                0 (plaintext)
+            150 LOAD_FAST                4 (j)
+            152 BINARY_SUBSCR
+            154 LOAD_METHOD              2 (upper)
+            156 CALL_METHOD              0
+            158 COMPARE_OP               2 (==)
+            160 POP_JUMP_IF_FALSE      172
+
+ 61         162 LOAD_GLOBAL              3 (Get_MatrixIndex)
+            164 LOAD_CONST               8 ('J')
+            166 CALL_FUNCTION            1
+            168 STORE_FAST               6 (y)
+            170 JUMP_FORWARD            16 (to 188)
+
+ 63     >>  172 LOAD_GLOBAL              3 (Get_MatrixIndex)
+            174 LOAD_FAST                0 (plaintext)
+            176 LOAD_FAST                4 (j)
+            178 BINARY_SUBSCR
+            180 LOAD_METHOD              2 (upper)
+            182 CALL_METHOD              0
+            184 CALL_FUNCTION            1
+            186 STORE_FAST               6 (y)
+
+ 65     >>  188 LOAD_FAST                5 (x)
+            190 LOAD_CONST               3 (0)
+            192 BINARY_SUBSCR
+            194 LOAD_FAST                6 (y)
+            196 LOAD_CONST               3 (0)
+            198 BINARY_SUBSCR
+            200 COMPARE_OP               2 (==)
+            202 EXTENDED_ARG             1
+            204 POP_JUMP_IF_FALSE      268
+
+ 66         206 LOAD_FAST                2 (ciphertext)
+            208 LOAD_FAST                1 (T_letter)
+            210 LOAD_FAST                5 (x)
+            212 LOAD_CONST               3 (0)
+            214 BINARY_SUBSCR
+            216 BINARY_SUBSCR
+            218 LOAD_FAST                5 (x)
+            220 LOAD_CONST               6 (1)
+            222 BINARY_SUBSCR
+            224 LOAD_CONST               6 (1)
+            226 BINARY_ADD
+
+ 67         228 LOAD_CONST               9 (5)
+
+ 66         230 BINARY_MODULO
+            232 BINARY_SUBSCR
+
+ 67         234 LOAD_FAST                1 (T_letter)
+            236 LOAD_FAST                6 (y)
+            238 LOAD_CONST               3 (0)
+            240 BINARY_SUBSCR
+            242 BINARY_SUBSCR
+            244 LOAD_FAST                6 (y)
+            246 LOAD_CONST               6 (1)
+            248 BINARY_SUBSCR
+            250 LOAD_CONST               6 (1)
+            252 BINARY_ADD
+            254 LOAD_CONST               9 (5)
+            256 BINARY_MODULO
+            258 BINARY_SUBSCR
+
+ 66         260 BINARY_ADD
+            262 INPLACE_ADD
+            264 STORE_FAST               2 (ciphertext)
+            266 JUMP_FORWARD           124 (to 392)
+
+ 68     >>  268 LOAD_FAST                5 (x)
+            270 LOAD_CONST               6 (1)
+            272 BINARY_SUBSCR
+            274 LOAD_FAST                6 (y)
+            276 LOAD_CONST               6 (1)
+            278 BINARY_SUBSCR
+            280 COMPARE_OP               2 (==)
+            282 EXTENDED_ARG             1
+            284 POP_JUMP_IF_FALSE      348
+
+ 69         286 LOAD_FAST                2 (ciphertext)
+            288 LOAD_FAST                1 (T_letter)
+            290 LOAD_FAST                5 (x)
+            292 LOAD_CONST               6 (1)
+            294 BINARY_SUBSCR
+            296 LOAD_CONST               6 (1)
+            298 BINARY_ADD
+
+ 70         300 LOAD_CONST               9 (5)
+
+ 69         302 BINARY_MODULO
+            304 BINARY_SUBSCR
+
+ 70         306 LOAD_FAST                5 (x)
+            308 LOAD_CONST               3 (0)
+            310 BINARY_SUBSCR
+
+ 69         312 BINARY_SUBSCR
+
+ 70         314 LOAD_FAST                1 (T_letter)
+            316 LOAD_FAST                6 (y)
+            318 LOAD_CONST               6 (1)
+            320 BINARY_SUBSCR
+            322 LOAD_CONST               6 (1)
+            324 BINARY_ADD
+            326 LOAD_CONST               9 (5)
+            328 BINARY_MODULO
+            330 BINARY_SUBSCR
+            332 LOAD_FAST                6 (y)
+            334 LOAD_CONST               3 (0)
+            336 BINARY_SUBSCR
+            338 BINARY_SUBSCR
+
+ 69         340 BINARY_ADD
+            342 INPLACE_ADD
+            344 STORE_FAST               2 (ciphertext)
+            346 JUMP_FORWARD            44 (to 392)
+
+ 72     >>  348 LOAD_FAST                2 (ciphertext)
+            350 LOAD_FAST                1 (T_letter)
+            352 LOAD_FAST                5 (x)
+            354 LOAD_CONST               3 (0)
+            356 BINARY_SUBSCR
+            358 BINARY_SUBSCR
+            360 LOAD_FAST                6 (y)
+            362 LOAD_CONST               6 (1)
+            364 BINARY_SUBSCR
+            366 BINARY_SUBSCR
+            368 LOAD_FAST                1 (T_letter)
+            370 LOAD_FAST                6 (y)
+            372 LOAD_CONST               3 (0)
+            374 BINARY_SUBSCR
+            376 BINARY_SUBSCR
+            378 LOAD_FAST                5 (x)
+            380 LOAD_CONST               6 (1)
+            382 BINARY_SUBSCR
+            384 BINARY_SUBSCR
+            386 BINARY_ADD
+            388 INPLACE_ADD
+            390 STORE_FAST               2 (ciphertext)
+
+ 73     >>  392 EXTENDED_ARG             1
+            394 JUMP_ABSOLUTE          406
+
+ 74     >>  396 LOAD_FAST                4 (j)
+            398 LOAD_CONST               6 (1)
+            400 INPLACE_ADD
+            402 STORE_FAST               4 (j)
+            404 JUMP_ABSOLUTE           72
+
+ 75     >>  406 LOAD_FAST                4 (j)
+            408 LOAD_CONST               6 (1)
+            410 BINARY_ADD
+            412 STORE_FAST               3 (i)
+
+ 76         414 JUMP_ABSOLUTE           32
+            416 JUMP_FORWARD            12 (to 430)
+
+ 78     >>  418 LOAD_FAST                2 (ciphertext)
+            420 LOAD_FAST                0 (plaintext)
+            422 LOAD_FAST                3 (i)
+            424 BINARY_SUBSCR
+            426 INPLACE_ADD
+            428 STORE_FAST               2 (ciphertext)
+
+ 79     >>  430 LOAD_FAST                3 (i)
+            432 LOAD_CONST               6 (1)
+            434 INPLACE_ADD
+            436 STORE_FAST               3 (i)
+            438 JUMP_ABSOLUTE           32
+
+ 81     >>  440 LOAD_FAST                2 (ciphertext)
+            442 RETURN_VALUE
+
+Disassembly of <code object Decrypt at 0x7fdddf9e4240, file "./source.py", line 86>:
+ 87           0 LOAD_CONST               1 ('')
+              2 STORE_FAST               2 (plaintext)
+
+ 88           4 LOAD_GLOBAL              0 (len)
+              6 LOAD_FAST                0 (ciphertext)
+              8 CALL_FUNCTION            1
+             10 LOAD_CONST               2 (2)
+             12 BINARY_MODULO
+             14 LOAD_CONST               3 (0)
+             16 COMPARE_OP               3 (!=)
+             18 POP_JUMP_IF_FALSE       28
+
+ 89          20 LOAD_FAST                0 (ciphertext)
+             22 LOAD_CONST               4 ('Z')
+             24 INPLACE_ADD
+             26 STORE_FAST               0 (ciphertext)
+
+ 91     >>   28 LOAD_CONST               3 (0)
+             30 STORE_FAST               3 (i)
+
+ 92     >>   32 LOAD_FAST                3 (i)
+             34 LOAD_GLOBAL              0 (len)
+             36 LOAD_FAST                0 (ciphertext)
+             38 CALL_FUNCTION            1
+             40 COMPARE_OP               0 (<)
+             42 EXTENDED_ARG             1
+             44 POP_JUMP_IF_FALSE      440
+
+ 93          46 LOAD_CONST               5 (True)
+             48 LOAD_FAST                0 (ciphertext)
+             50 LOAD_FAST                3 (i)
+             52 BINARY_SUBSCR
+             54 LOAD_METHOD              1 (isalpha)
+             56 CALL_METHOD              0
+             58 COMPARE_OP               2 (==)
+             60 EXTENDED_ARG             1
+             62 POP_JUMP_IF_FALSE      418
+
+ 94          64 LOAD_FAST                3 (i)
+             66 LOAD_CONST               6 (1)
+             68 BINARY_ADD
+             70 STORE_FAST               4 (j)
+
+ 95     >>   72 LOAD_FAST                4 (j)
+             74 LOAD_GLOBAL              0 (len)
+             76 LOAD_FAST                0 (ciphertext)
+             78 CALL_FUNCTION            1
+             80 COMPARE_OP               0 (<)
+             82 EXTENDED_ARG             1
+             84 POP_JUMP_IF_FALSE      406
+
+ 96          86 LOAD_CONST               5 (True)
+             88 LOAD_FAST                0 (ciphertext)
+             90 LOAD_FAST                4 (j)
+             92 BINARY_SUBSCR
+             94 LOAD_METHOD              1 (isalpha)
+             96 CALL_METHOD              0
+             98 COMPARE_OP               2 (==)
+            100 EXTENDED_ARG             1
+            102 POP_JUMP_IF_FALSE      396
+
+ 97         104 LOAD_CONST               7 ('I')
+            106 LOAD_FAST                0 (ciphertext)
+            108 LOAD_FAST                3 (i)
+            110 BINARY_SUBSCR
+            112 LOAD_METHOD              2 (upper)
+            114 CALL_METHOD              0
+            116 COMPARE_OP               2 (==)
+            118 POP_JUMP_IF_FALSE      130
+
+ 98         120 LOAD_GLOBAL              3 (Get_MatrixIndex)
+            122 LOAD_CONST               8 ('J')
+            124 CALL_FUNCTION            1
+            126 STORE_FAST               5 (x)
+            128 JUMP_FORWARD            16 (to 146)
+
+100     >>  130 LOAD_GLOBAL              3 (Get_MatrixIndex)
+
+101         132 LOAD_FAST                0 (ciphertext)
+            134 LOAD_FAST                3 (i)
+            136 BINARY_SUBSCR
+            138 LOAD_METHOD              2 (upper)
+            140 CALL_METHOD              0
+
+100         142 CALL_FUNCTION            1
+            144 STORE_FAST               5 (x)
+
+102     >>  146 LOAD_CONST               7 ('I')
+            148 LOAD_FAST                0 (ciphertext)
+            150 LOAD_FAST                4 (j)
+            152 BINARY_SUBSCR
+            154 LOAD_METHOD              2 (upper)
+            156 CALL_METHOD              0
+            158 COMPARE_OP               2 (==)
+            160 POP_JUMP_IF_FALSE      172
+
+103         162 LOAD_GLOBAL              3 (Get_MatrixIndex)
+            164 LOAD_CONST               8 ('J')
+            166 CALL_FUNCTION            1
+            168 STORE_FAST               6 (y)
+            170 JUMP_FORWARD            16 (to 188)
+
+105     >>  172 LOAD_GLOBAL              3 (Get_MatrixIndex)
+            174 LOAD_FAST                0 (ciphertext)
+            176 LOAD_FAST                4 (j)
+            178 BINARY_SUBSCR
+            180 LOAD_METHOD              2 (upper)
+            182 CALL_METHOD              0
+            184 CALL_FUNCTION            1
+            186 STORE_FAST               6 (y)
+
+107     >>  188 LOAD_FAST                5 (x)
+            190 LOAD_CONST               3 (0)
+            192 BINARY_SUBSCR
+            194 LOAD_FAST                6 (y)
+            196 LOAD_CONST               3 (0)
+            198 BINARY_SUBSCR
+            200 COMPARE_OP               2 (==)
+            202 EXTENDED_ARG             1
+            204 POP_JUMP_IF_FALSE      268
+
+108         206 LOAD_FAST                2 (plaintext)
+            208 LOAD_FAST                1 (T_letter)
+            210 LOAD_FAST                5 (x)
+            212 LOAD_CONST               3 (0)
+            214 BINARY_SUBSCR
+            216 BINARY_SUBSCR
+            218 LOAD_FAST                5 (x)
+            220 LOAD_CONST               6 (1)
+            222 BINARY_SUBSCR
+            224 LOAD_CONST               6 (1)
+            226 BINARY_SUBTRACT
+
+109         228 LOAD_CONST               9 (5)
+
+108         230 BINARY_MODULO
+            232 BINARY_SUBSCR
+
+109         234 LOAD_FAST                1 (T_letter)
+            236 LOAD_FAST                6 (y)
+            238 LOAD_CONST               3 (0)
+            240 BINARY_SUBSCR
+            242 BINARY_SUBSCR
+            244 LOAD_FAST                6 (y)
+            246 LOAD_CONST               6 (1)
+            248 BINARY_SUBSCR
+            250 LOAD_CONST               6 (1)
+            252 BINARY_SUBTRACT
+            254 LOAD_CONST               9 (5)
+            256 BINARY_MODULO
+            258 BINARY_SUBSCR
+
+108         260 BINARY_ADD
+            262 INPLACE_ADD
+            264 STORE_FAST               2 (plaintext)
+            266 JUMP_FORWARD           124 (to 392)
+
+110     >>  268 LOAD_FAST                5 (x)
+            270 LOAD_CONST               6 (1)
+            272 BINARY_SUBSCR
+            274 LOAD_FAST                6 (y)
+            276 LOAD_CONST               6 (1)
+            278 BINARY_SUBSCR
+            280 COMPARE_OP               2 (==)
+            282 EXTENDED_ARG             1
+            284 POP_JUMP_IF_FALSE      348
+
+111         286 LOAD_FAST                2 (plaintext)
+            288 LOAD_FAST                1 (T_letter)
+            290 LOAD_FAST                5 (x)
+            292 LOAD_CONST               6 (1)
+            294 BINARY_SUBSCR
+            296 LOAD_CONST               6 (1)
+            298 BINARY_SUBTRACT
+
+112         300 LOAD_CONST               9 (5)
+
+111         302 BINARY_MODULO
+            304 BINARY_SUBSCR
+
+112         306 LOAD_FAST                5 (x)
+            308 LOAD_CONST               3 (0)
+            310 BINARY_SUBSCR
+
+111         312 BINARY_SUBSCR
+
+112         314 LOAD_FAST                1 (T_letter)
+            316 LOAD_FAST                6 (y)
+            318 LOAD_CONST               6 (1)
+            320 BINARY_SUBSCR
+            322 LOAD_CONST               6 (1)
+            324 BINARY_SUBTRACT
+            326 LOAD_CONST               9 (5)
+            328 BINARY_MODULO
+            330 BINARY_SUBSCR
+            332 LOAD_FAST                6 (y)
+            334 LOAD_CONST               3 (0)
+            336 BINARY_SUBSCR
+            338 BINARY_SUBSCR
+
+111         340 BINARY_ADD
+            342 INPLACE_ADD
+            344 STORE_FAST               2 (plaintext)
+            346 JUMP_FORWARD            44 (to 392)
+
+114     >>  348 LOAD_FAST                2 (plaintext)
+            350 LOAD_FAST                1 (T_letter)
+            352 LOAD_FAST                5 (x)
+            354 LOAD_CONST               3 (0)
+            356 BINARY_SUBSCR
+            358 BINARY_SUBSCR
+            360 LOAD_FAST                6 (y)
+            362 LOAD_CONST               6 (1)
+            364 BINARY_SUBSCR
+            366 BINARY_SUBSCR
+            368 LOAD_FAST                1 (T_letter)
+            370 LOAD_FAST                6 (y)
+            372 LOAD_CONST               3 (0)
+            374 BINARY_SUBSCR
+            376 BINARY_SUBSCR
+            378 LOAD_FAST                5 (x)
+            380 LOAD_CONST               6 (1)
+            382 BINARY_SUBSCR
+            384 BINARY_SUBSCR
+            386 BINARY_ADD
+            388 INPLACE_ADD
+            390 STORE_FAST               2 (plaintext)
+
+115     >>  392 EXTENDED_ARG             1
+            394 JUMP_ABSOLUTE          406
+
+116     >>  396 LOAD_FAST                4 (j)
+            398 LOAD_CONST               6 (1)
+            400 INPLACE_ADD
+            402 STORE_FAST               4 (j)
+            404 JUMP_ABSOLUTE           72
+
+117     >>  406 LOAD_FAST                4 (j)
+            408 LOAD_CONST               6 (1)
+            410 BINARY_ADD
+            412 STORE_FAST               3 (i)
+
+118         414 JUMP_ABSOLUTE           32
+            416 JUMP_FORWARD            12 (to 430)
+
+120     >>  418 LOAD_FAST                2 (plaintext)
+            420 LOAD_FAST                0 (ciphertext)
+            422 LOAD_FAST                3 (i)
+            424 BINARY_SUBSCR
+            426 INPLACE_ADD
+            428 STORE_FAST               2 (plaintext)
+
+121     >>  430 LOAD_FAST                3 (i)
+            432 LOAD_CONST               6 (1)
+            434 INPLACE_ADD
+            436 STORE_FAST               3 (i)
+            438 JUMP_ABSOLUTE           32
+
+123     >>  440 LOAD_FAST                2 (plaintext)
+            442 RETURN_VALUE

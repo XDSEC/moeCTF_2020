@@ -1,0 +1,1 @@
+flag = b'moectf{so00Oo0oO_d31ici0us}'

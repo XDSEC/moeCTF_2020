@@ -1,0 +1,704 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,2133,,0.168
+ M,0,2133,2673,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,2943,,0.168
+ M,0,2943,3213,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,3483,,0.168
+ M,0,3483,4023,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,4293,,0.168
+ M,0,4293,4833,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,5643,,0.168
+ M,0,5643,6183,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,6453,,0.168
+ M,0,6453,6993,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,7263,,0.168
+ M,0,7263,7803,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,8613,,0.168
+ M,0,8613,8883,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,9153,,0.168
+ M,0,9153,9423,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,9693,,0.168
+ M,0,9693,10233,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,11043,,0.168
+ M,0,11043,11313,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,11583,,0.168
+ M,0,11583,12123,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,12933,,0.168
+ M,0,12933,13203,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,13473,,0.168
+ M,0,13473,14013,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,14283,,0.168
+ M,0,14283,14553,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,15363,,0.168
+ M,0,15363,15633,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,16443,,0.168
+ M,0,16443,16983,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,17253,,0.168
+ M,0,17253,17793,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,18063,,0.168
+ M,0,18063,18603,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,19413,,0.168
+ M,0,19413,19683,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,19953,,0.168
+ M,0,19953,20223,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,20493,,0.168
+ M,0,20493,20763,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,21573,,0.168
+ M,0,21573,21843,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,22113,,0.168
+ M,0,22113,22383,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,22653,,0.168
+ M,0,22653,23193,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,24003,,0.168
+ M,0,24003,24543,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,24813,,0.168
+ M,0,24813,25353,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,26163,,0.168
+ M,0,26163,26433,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,26703,,0.168
+ M,0,26703,27243,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,28053,,0.168
+ M,0,28053,28323,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,28593,,0.168
+ M,0,28593,28863,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,29133,,0.168
+ M,0,29133,29403,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,30213,,0.168
+ M,0,30213,30753,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,31563,,0.168
+ M,0,31563,31833,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,32643,,0.168
+ M,0,32643,32913,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,33183,,0.168
+ M,0,33183,33723,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,33993,,0.168
+ M,0,33993,34263,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,35073,,0.168
+ M,0,35073,35343,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,35613,,0.168
+ M,0,35613,35883,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,36153,,0.168
+ M,0,36153,36423,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,37233,,0.168
+ M,0,37233,37773,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,38043,,0.168
+ M,0,38043,38583,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,38853,,0.168
+ M,0,38853,39393,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,40203,,0.168
+ M,0,40203,40473,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,40743,,0.168
+ M,0,40743,41013,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,41283,,0.168
+ M,0,41283,41553,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,42363,,0.168
+ M,0,42363,42903,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,43173,,0.168
+ M,0,43173,43713,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,43983,,0.168
+ M,0,43983,44523,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,45333,,0.168
+ M,0,45333,45603,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,45873,,0.168
+ M,0,45873,46143,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,46413,,0.168
+ M,0,46413,46683,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,47493,,0.168
+ M,0,47493,48033,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,48843,,0.168
+ M,0,48843,49113,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,49383,,0.168
+ M,0,49383,49923,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,50193,,0.168
+ M,0,50193,50463,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,51273,,0.168
+ M,0,51273,51813,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,52083,,0.168
+ M,0,52083,52623,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,52893,,0.168
+ M,0,52893,53433,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,54243,,0.168
+ M,0,54243,54783,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,55053,,0.168
+ M,0,55053,55323,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,56133,,0.168
+ M,0,56133,56673,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,56943,,0.168
+ M,0,56943,57483,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,57753,,0.168
+ M,0,57753,58023,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,58833,,0.168
+ M,0,58833,59373,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,60183,,0.168
+ M,0,60183,60453,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,60723,,0.168
+ M,0,60723,60993,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,61263,,0.168
+ M,0,61263,61533,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,61803,,0.168
+ M,0,61803,62073,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,62883,,0.168
+ M,0,62883,63153,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,63423,,0.168
+ M,0,63423,63693,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,64503,,0.168
+ M,0,64503,64773,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,65043,,0.168
+ M,0,65043,65313,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,65583,,0.168
+ M,0,65583,65853,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,66663,,0.168
+ M,0,66663,66933,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,67203,,0.168
+ M,0,67203,67473,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,67743,,0.168
+ M,0,67743,68283,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,68553,,0.168
+ M,0,68553,68823,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,69633,,0.168
+ M,0,69633,69903,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,70173,,0.168
+ M,0,70173,70713,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,70983,,0.168
+ M,0,70983,71253,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,71523,,0.168
+ M,0,71523,71793,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,72603,,0.168
+ M,0,72603,72873,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,73143,,0.168
+ M,0,73143,73683,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,74493,,0.168
+ M,0,74493,75033,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,75303,,0.168
+ M,0,75303,75843,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,76113,,0.168
+ M,0,76113,76383,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,77193,,0.168
+ M,0,77193,77733,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,78003,,0.168
+ M,0,78003,78543,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,78813,,0.168
+ M,0,78813,79083,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,79893,,0.168
+ M,0,79893,80163,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,80433,,0.168
+ M,0,80433,80703,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,81513,,0.168
+ M,0,81513,81783,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,82053,,0.168
+ M,0,82053,82323,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,82593,,0.168
+ M,0,82593,82863,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,83133,,0.168
+ M,0,83133,83673,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,84483,,0.168
+ M,0,84483,84753,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,85563,,0.168
+ M,0,85563,86103,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,86373,,0.168
+ M,0,86373,86643,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,86913,,0.168
+ M,0,86913,87453,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,87723,,0.168
+ M,0,87723,88263,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,89073,,0.168
+ M,0,89073,89613,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,89883,,0.168
+ M,0,89883,90423,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,90693,,0.168
+ M,0,90693,91233,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,92043,,0.168
+ M,0,92043,92313,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,92583,,0.168
+ M,0,92583,92853,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,93123,,0.168
+ M,0,93123,93663,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,94473,,0.168
+ M,0,94473,95013,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,95823,,0.168
+ M,0,95823,96363,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,96633,,0.168
+ M,0,96633,97173,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,97443,,0.168
+ M,0,97443,97983,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,98793,,0.168
+ M,0,98793,99063,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,99333,,0.168
+ M,0,99333,99873,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,100143,,0.168
+ M,0,100143,100413,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,101223,,0.168
+ M,0,101223,101493,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,102303,,0.168
+ M,0,102303,102573,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,102843,,0.168
+ M,0,102843,103383,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,103653,,0.168
+ M,0,103653,104193,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,105003,,0.168
+ M,0,105003,105273,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,105543,,0.168
+ M,0,105543,106083,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,106893,,0.168
+ M,0,106893,107163,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,107433,,0.168
+ M,0,107433,107973,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,108243,,0.168
+ M,0,108243,108513,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,109323,,0.168
+ M,0,109323,109863,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,110133,,0.168
+ M,0,110133,110403,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,110673,,0.168
+ M,0,110673,110943,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,111753,,0.168
+ M,0,111753,112293,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,112563,,0.168
+ M,0,112563,112833,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,113103,,0.168
+ M,0,113103,113643,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,113913,,0.168
+ M,0,113913,114453,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,115263,,0.168
+ M,0,115263,115803,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,116073,,0.168
+ M,0,116073,116613,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,116883,,0.168
+ M,0,116883,117423,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,118233,,0.168
+ M,0,118233,118503,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,118773,,0.168
+ M,0,118773,119043,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,119313,,0.168
+ M,0,119313,119853,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,120663,,0.168
+ M,0,120663,121203,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,121473,,0.168
+ M,0,121473,121743,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,122013,,0.168
+ M,0,122013,122283,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,123093,,0.168
+ M,0,123093,123633,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,123903,,0.168
+ M,0,123903,124443,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,124713,,0.168
+ M,0,124713,125253,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,126063,,0.168
+ M,0,126063,126603,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,126873,,0.168
+ M,0,126873,127143,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,127953,,0.168
+ M,0,127953,128493,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,128763,,0.168
+ M,0,128763,129303,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,129573,,0.168
+ M,0,129573,130113,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,130923,,0.168
+ M,0,130923,131463,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,132273,,0.168
+ M,0,132273,132543,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,132813,,0.168
+ M,0,132813,133353,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,134163,,0.168
+ M,0,134163,134433,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,134703,,0.168
+ M,0,134703,134973,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,135243,,0.168
+ M,0,135243,135783,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,136053,,0.168
+ M,0,136053,136323,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,137133,,0.168
+ M,0,137133,137403,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,137673,,0.168
+ M,0,137673,138213,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,138483,,0.168
+ M,0,138483,138753,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,139563,,0.168
+ M,0,139563,139833,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,140103,,0.168
+ M,0,140103,140643,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,141453,,0.168
+ M,0,141453,141723,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,141993,,0.168
+ M,0,141993,142263,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,143073,,0.168
+ M,0,143073,143613,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,143883,,0.168
+ M,0,143883,144153,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,144423,,0.168
+ M,0,144423,144693,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,145503,,0.168
+ M,0,145503,146043,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,146313,,0.168
+ M,0,146313,146853,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,147123,,0.168
+ M,0,147123,147663,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,148473,,0.168
+ M,0,148473,148743,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,149013,,0.168
+ M,0,149013,149283,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,149553,,0.168
+ M,0,149553,150093,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,150363,,0.168
+ M,0,150363,150633,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,151443,,0.168
+ M,0,151443,151713,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,151983,,0.168
+ M,0,151983,152253,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,153063,,0.168
+ M,0,153063,153603,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,154413,,0.168
+ M,0,154413,154683,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,154953,,0.168
+ M,0,154953,155223,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,155493,,0.168
+ M,0,155493,155763,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,156573,,0.168
+ M,0,156573,156843,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,157113,,0.168
+ M,0,157113,157653,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,157923,,0.168
+ M,0,157923,158193,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,158463,,0.168
+ M,0,158463,158733,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,159543,,0.168
+ M,0,159543,159813,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,160623,,0.168
+ M,0,160623,161163,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,161433,,0.168
+ M,0,161433,161703,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,162513,,0.168
+ M,0,162513,163053,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,163323,,0.168
+ M,0,163323,163863,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,164133,,0.168
+ M,0,164133,164403,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,165213,,0.168
+ M,0,165213,165753,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,166563,,0.168
+ M,0,166563,166833,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,167103,,0.168
+ M,0,167103,167373,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,167643,,0.168
+ M,0,167643,167913,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,168183,,0.168
+ M,0,168183,168453,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,169263,,0.168
+ M,0,169263,169533,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,169803,,0.168
+ M,0,169803,170073,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,170883,,0.168
+ M,0,170883,171423,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,172233,,0.168
+ M,0,172233,172503,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,172773,,0.168
+ M,0,172773,173043,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,173853,,0.168
+ M,0,173853,174123,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,174393,,0.168
+ M,0,174393,174663,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,174933,,0.168
+ M,0,174933,175203,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,176013,,0.168
+ M,0,176013,176553,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,177363,,0.168
+ M,0,177363,177633,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,177903,,0.168
+ M,0,177903,178173,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,178443,,0.168
+ M,0,178443,178713,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,178983,,0.168
+ M,0,178983,179253,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,180063,,0.168
+ M,0,180063,180333,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,181143,,0.168
+ M,0,181143,181413,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,181683,,0.168
+ M,0,181683,182223,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,182493,,0.168
+ M,0,182493,182763,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,183573,,0.168
+ M,0,183573,183843,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,184113,,0.168
+ M,0,184113,184383,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,185193,,0.168
+ M,0,185193,185733,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,186003,,0.168
+ M,0,186003,186543,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,186813,,0.168
+ M,0,186813,187083,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,187893,,0.168
+ M,0,187893,188163,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,188433,,0.168
+ M,0,188433,188703,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,188973,,0.168
+ M,0,188973,189243,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,189513,,0.168
+ M,0,189513,189783,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,190593,,0.168
+ M,0,190593,191133,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,191943,,0.168
+ M,0,191943,192213,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,192483,,0.168
+ M,0,192483,192753,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,193023,,0.168
+ M,0,193023,193563,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,193833,,0.168
+ M,0,193833,194103,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,194913,,0.168
+ M,0,194913,195183,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,195453,,0.168
+ M,0,195453,195993,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,196263,,0.168
+ M,0,196263,196533,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,196803,,0.168
+ M,0,196803,197073,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,197883,,0.168
+ M,0,197883,198153,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,198423,,0.168
+ M,0,198423,198963,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,199773,,0.168
+ M,0,199773,200313,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,200583,,0.168
+ M,0,200583,201123,287,255
+Sprite,Foreground,Centre,"moectf_icon_only.png",320,240
+ S,0,201393,,0.168
+ M,0,201393,201663,287,255
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples

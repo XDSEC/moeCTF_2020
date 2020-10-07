@@ -1,0 +1,9 @@
+JavaScript真的是一门可爱的语言呢~
+
+如果你想运行本题的程序, 你需要了解一下Node.JS, 安装好Node.JS之后, 在本目录下执行
+
+node ./Fxckit.js
+
+即可.
+
+flag格式: moectf{<some characters>}
